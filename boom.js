@@ -4,7 +4,7 @@ const title1= document.getElementById("title1");
 const mypara1= document.getElementById("para1");
 const title4= document.getElementById("title4");
 const link= document.getElementById("link");
-// chosing a value from rpevious <p>
+// chosing a value from first <p>
 const element=document.getElementsByTagName("p");
 
 // changing the content of the elements
