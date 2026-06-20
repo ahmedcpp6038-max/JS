@@ -7,14 +7,81 @@
     <link rel="stylesheet" href="boom.css">
 </head>
 <body>
-    <h1 id="title1">        </h1>
-    <p id="para1">       </p>
-    <p>boom boom boom boom</p>
+    <div class="kaboom">
+    <h1>Order/delivery tracking</h1>
+    <h6>place your order</h6>
+    
 
-    <h4 id="title4">   </h4>
-    <a href="#" id="link">      </a>
-  
-    <p id="demo"></p>
-      <script src="boom.js"></script>
+    
+    <form class="form">
+        <h3>Personal Information</h3>
+
+        <div class="input-box">
+            <label for="name">Name *</label>
+            <input
+                id="name"
+                type="text"
+                placeholder="Your Name"
+                required>
+        </div>
+
+        <div class="input-box">
+            <label for="phone">Contact Number *</label>
+            <input
+                id="phone"
+                type="tel"
+                placeholder="+213 ..."
+                required>
+        </div>
+
+        <div class="input-box">
+            <label for="email">Email *</label>
+            <input
+                id="email"
+                type="email"
+                placeholder="example@gmail.com"
+                required>
+        </div>
+
+        <h3>Order Information</h3>
+
+        <div class="input-box">
+            <label for="order-id">Order ID</label>
+            <input
+                id="order-id"
+                type="text"
+                placeholder="ORD-12345"
+                required>
+        </div>
+        <select class="form-control form-control-sm">
+        <option>alger center</option>
+        <option>oran</option>
+        <option>bejaya</option>
+        <option>So9 ahras/option>
+        <option>JELFAتعاضدية</option>
+        </select>
+        <div class="input-box">
+            <label for="delivery">deliver destanation</label>
+            <input
+                id="order-id"
+                type="text"
+                placeholder="adress">
+        </div>
+         <div class="input-B">
+            <label for="order-id">postal/zip CODE</label>
+            <input
+                id="order-id"
+                type="text"
+                placeholder=""
+                required>
+                
+        </div>
+        
+
+        <button type="submit">Track Order</button>
+    </form>
+    </div>
+
+    <script src="boom.js"></script>
 </body>
 </html>
